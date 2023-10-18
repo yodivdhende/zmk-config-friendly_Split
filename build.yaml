@@ -14,8 +14,8 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: friendlySplit_left
+    shield: friendly_Split_left
   - board: nice_nano_v2
-    shield: friendlySplit_right
+    shield: friendly_Split_right
   - board: nice_nano_v2
     shield: settings_reset
