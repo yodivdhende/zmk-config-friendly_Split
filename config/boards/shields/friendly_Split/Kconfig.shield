@@ -1,5 +1,5 @@
-config SHIELD_FRIENDLYSPLIT_LEFT
-  def_bool $(shields_list_contains, friendlySplit_left)
+config SHIELD_FRIENDLY_SPLIT_LEFT
+  def_bool $(shields_list_contains, friendly_Split_left)
 
-config SHIELD_FRIENDLYSPLIT_RIGHT
-  def_bool $(shields_list_contains, friendlySplit_right)
+config SHIELD_FRIENDLY_SPLIT_RIGHT
+  def_bool $(shields_list_contains, friendly_Split_right)
