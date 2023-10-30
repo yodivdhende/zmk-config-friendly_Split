@@ -1,4 +1,4 @@
-#include "friendly_Split.dtsi" 
+#include "friendlySplit.dtsi" 
 
 &default_transform { 
     col-offset = <7>;

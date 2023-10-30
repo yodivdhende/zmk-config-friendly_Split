@@ -1,4 +1,4 @@
-#include "friendly_Split.dtsi" 
+#include "friendlySplit.dtsi" 
 
 &kscan0 {
   col-gpios
