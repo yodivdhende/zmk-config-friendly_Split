@@ -7,6 +7,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/outputs.h>
 
 / {
     keymap {
@@ -40,11 +41,11 @@
 
         fn_layer {
             bindings = <
-&kp GRAVE  &kp F1       &kp F2       &kp F3       &kp F4       &kp F5       &kp F6       /* */ &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12 &kp DEL         &trans
-&bt BT_CLR &bt BT_SEL 0              &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 /* */ &trans &trans &trans &trans  &trans  &trans  &trans 	&trans  &trans 
-&trans     &trans                    &trans       &trans       &trans       &trans       /* */ &trans &trans &trans &trans  &trans  &trans  &trans 	        &kp PG_UP
-&trans     &trans       &trans       &trans       &trans       &trans       &trans       /* */ &trans &trans &trans &trans  &trans          &trans 	&trans  &kp PG_DN
-&trans     &trans       &trans       &trans                    &trans                    /* */        &trans &trans &trans  &trans          &trans 	&trans  &trans
+&kp GRAVE    &kp F1       &kp F2       &kp F3       &kp F4       &kp F5       &kp F6       /* */ &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12 &kp DEL         &trans
+&bt BT_CLR   &bt BT_SEL 0              &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 /* */ &trans &trans &trans &trans  &trans  &trans  &trans 	&trans  &trans 
+&out OUT_TOG &out OUT_USB              &out OUT_BLE &trans       &trans       &trans       /* */ &trans &trans &trans &trans  &trans  &trans  &trans 	        &kp PG_UP
+&trans       &trans       &trans       &trans       &trans       &trans       &trans       /* */ &trans &trans &trans &trans  &trans          &trans 	&trans  &kp PG_DN
+&trans       &trans       &trans       &trans                    &trans                    /* */        &trans &trans &trans  &trans          &trans 	&trans  &trans
             >;
         };
     };
